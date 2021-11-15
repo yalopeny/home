@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-around;
+    align-items: flex-end;
+}    
+
+.block {
+    padding: 10px 20px 30px 60px;
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(71, 69, 69);
+}
+
+
+.paragraph span {
+    color: blue !important;
+}
+
+
+
+span {
+    color:blue
+}
+
+
+
+.square {
+    width: 200px;
+    height: 200px;
+   background-color: rgb(72, 197, 41);
+   position:relative;
+}
+
+.square::after {
+    content: "";
+    display:block;
+    width: 196px;
+    height: 196px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.pseudo div:first-child {
+    color: darkkhaki;
+}
+
+.pseudo div:nth-child(5) {
+    color:brown
+}
+
+
+.pseudo div {
+    transition: all 3s ;
+}
+.pseudo div:hover {
+    color:aqua
+}
+
+h1 {
+    color:blue
+}
+
+h2 {
+    color:blueviolet
+}
+
+p {
+    color:burlywood
+}
+
+.first {
+    color:chartreuse
+}
+
+.second {
+    color:cornflowerblue
+}
+
+.third {
+    color:crimson
+}
+
+#color {
+    color:darkmagenta
+}
+
+#color li {
+    color:blue
+}
