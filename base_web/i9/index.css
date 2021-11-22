@@ -1,0 +1,14 @@
+@font-face {
+    font-family: font123;
+    src: url("../../Comforter/Comforter-Regular.ttf")
+
+}
+
+h1 {
+    font-family: font123; sans-serif;
+}
+
+h1:hover {
+    background-color: rgb(235, 66, 66);
+    color:violet
+}
